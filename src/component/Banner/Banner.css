@@ -1,0 +1,66 @@
+.banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+}
+.Card img{
+    margin: 85px 0 99px 0;
+}
+.Convert__bnt{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #707C87;
+    line-height: 21px;
+    background: #F6F7FF;
+    border-radius: 4px;
+    padding: 20px 0px;
+    outline: none;
+    max-width: 234px;
+    border: none;
+    cursor: pointer;
+    transition: all .5s;
+}
+.Convert__bnt:hover{
+    background: #2C36F2;
+}
+.Convert__bnt:hover a{
+    color: #fafbfd;
+}
+
+
+.flexBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chip_text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.chip_text h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 63px;
+    display: flex;
+    align-items: center;
+
+    color: #F6F7FF;
+}
+.chip_text_parag{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    
+    color: #E0E1EA;
+}

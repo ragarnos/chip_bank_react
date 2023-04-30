@@ -1,0 +1,75 @@
+.flexbox{
+ display: flex;
+ gap: 80px;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-between;
+}
+header{
+    padding: 34px 0;
+    background: #F6F7FF;
+}
+.flexbox_logo{
+    display: flex;
+    vertical-align: middle;
+    gap: 12px;
+}
+.flexbox_logo__img{
+    width: 100%;
+    max-width: 23px;
+    
+}
+.navlink{
+    display: flex;
+}
+.navlink li{
+    display: inline-block;
+    margin-right: 15px; 
+    padding: 3px; 
+}
+.navlink li a,
+.footer__list{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    color: #707C87;
+    cursor: pointer;
+    transition: .3s;
+}
+.navlink li a:hover,
+.footer__list li:hover{
+    color: #2C36F2;
+}
+.navlink li .active{
+    color: #2C36F2;
+}
+.Title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #1F1E25;
+}
+.login{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #1F1E25;
+}
+.navlink img{
+    margin-right: 15px;
+}
+.Title:hover{
+    color: #2C36F2;
+}

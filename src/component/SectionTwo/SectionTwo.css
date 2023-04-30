@@ -1,0 +1,47 @@
+.flexBox{
+    gap: 50px;
+}
+.chip_text_holder{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+.chip_text_holder h2{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    align-items: center;
+    color: #1F1E25;
+}
+.chip_text_holder_parag{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    align-items: center;
+}
+.Convert__bnt_blue{  
+    background: #2C36F2;
+    border-radius: 4px;
+    padding: 25px 0;
+    max-width: 251px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 140%;
+    align-items: center;
+    text-align: center;
+    color: #F6F7FF;
+    transition: background .3s;
+}
+
+.Convert__bnt_blue:hover{
+    background: #8587b4;
+}
+.holder_card{
+    padding: 120px 0;
+}
